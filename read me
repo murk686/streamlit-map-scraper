@@ -1,0 +1,32 @@
+Google Maps Scraper
+
+A professional web application built with Streamlit to fetch business data from Google Maps using the Places API. This app allows users to search for businesses by location or type, display results in a table, download data as CSV or Excel, view a static map, and manage search history with a clean, user-friendly interface.
+
+Features:
+1. Interactive Search: Search for businesses by entering a search term (e.g., "sukkur schools") and the number of businesses to fetch.
+
+2. Data Display: View fetched business data (name, address) in a table.
+
+3. Export Options: Download results as CSV or Excel files.
+
+4. Static Map View: Display a static map of the searched location using the Google Maps Static API.
+
+5. Search History: View recent searches in a sidebar, with options to clear history or export it as CSV.
+
+6. Theme Toggle: Switch between light and dark themes for better usability.
+
+7. Loading Animation: Visual feedback during data fetching with a loading animation.
+
+8. Rate Limiting: Prevents excessive requests with a 60-second cooldown between searches.
+
+9. Logging: Logs user actions and errors to a file (app.log) for debugging.
+
+-----------Technologies Used----------------
+1. Python: Core programming language.
+2. Streamlit: Framework for building the web app.
+3. Google Maps API: For fetching business data (Places API). 
+4. Displaying maps (Static Maps API).
+5. Pandas: For data manipulation and export.
+6. SQLite: For storing search history.
+7. Requests: For fetching static map images.
+8. Base64: For loading local images as fallbacks.
